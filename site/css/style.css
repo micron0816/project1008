@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.cf::after {
+	content:"";
+	clear:both;
+	display:block;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+#wrapper {
+	width: 980px;
+	margin: 0px auto;
+}
+header {
+	height: 80px;
+	padding: 10px;
+	background-color: #D57DA1;
+}
+header h1 {
+	margin: 0px;
+	font-size: 2em;
+	line-height: 80px;
+	color: #FFFFFF;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	width: 162px;
+	color: #ECA3A4;
+	background-color: #DED7D7;
+	display: block;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	border:1px solid #AF7576;
+	border-right:none;
+}
+nav ul li:first-child a {
+	width: 163px;
+}
+nav ul li:last-child a {
+	border-right:1px solid #AF7576;
+}
+nav ul li a:hover{
+	color:#fffdfd;
+	background:#DD7E80
+}
+#top_main {
+	height: 350px;
+	clear: both;
+	background-image: url(../img/neko.jpg);
+}
+#top_main h2 {
+	color: #C49E9F;
+	padding: 30px;
+	margin:0;
+}
+#sub {
+	float: left;
+	width: 200px;
+	background-color: #F1B8B9;
+}
+main {
+	float: right;
+	width: 760px;
+}
+main h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+#content {
+	background-image: url(../img/subback.jpg) ;
+	background-repeat: repeat-y;
+}
+main dl {
+	margin: 0px;
+}
+main dl dd {
+	margin: -1.5em 0px 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	padding-left: 7em;
+	padding-bottom: 20px;
+}
+footer {
+	clear: both;
+	background-color: #AA7273;
+	height: 30px;
+	text-align: right;
+	padding-right: 10px;
+}
+footer small {
+	font-size: 14px;
+	line-height: 30px;
+	color: #000000;
+}
